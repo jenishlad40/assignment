@@ -17,8 +17,18 @@ I have exposed following three APIs.
 Method: POST
 URL: http://localhost:8080/api/insert
 Payload 1: [6,2,5,4]
-Payload 2: [8]
 
+_Response:_
+{
+    "msg": "Element(s) inserted successfully",
+    "jsonBTree": {
+        "0": 2,
+        "1": 4,
+        "2": 5,
+        "3": 6
+    }
+}
+Payload 2: [8]
 _Response:_
 {
     "msg": "Element(s) inserted successfully",
@@ -30,6 +40,8 @@ _Response:_
         "4": 8
     }
 }
+
+
 
 2. _Delete Key Element_
 Method: DELETE
