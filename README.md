@@ -13,7 +13,7 @@ I have exposed following three APIs.
 3. An API to clear the B-Tree completely
 
 **API Details:**
-_Insert API_
+1. _Insert API_
 Method: POST
 URL: http://localhost:8080/api/insert
 Payload 1: [6,2,5,4]
@@ -31,7 +31,7 @@ _Response:_
     }
 }
 
-_Delete Key Element_
+2. _Delete Key Element_
 Method: DELETE
 Positive Case - URL: http://localhost:8080/api/delete/4
 _Response:_
@@ -57,7 +57,7 @@ _Response:_
 }
 
 
-_Clear the B-Tree completely_ 
+3. _Clear the B-Tree completely_ 
 Method: DELETE
 URL: http://localhost:8080/api/deleteAll
 _Response:_
